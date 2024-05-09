@@ -34,7 +34,6 @@ To use AniBot, follow these steps:
      ```
      DISCORD_TOKEN=your_discord_bot_token
      YOUTUBE_KEY=your_youtube_api_key
-     OTHER_VARIABLE=value
      ```
 
 4. Start the bot.
