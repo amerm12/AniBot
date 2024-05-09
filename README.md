@@ -20,7 +20,7 @@ To use AniBot, follow these steps:
 
 1. Clone the repository to your local machine.
    ```
-   git clone https://github.com/amer12/AniBot.git
+   git clone https://github.com/amerm12/AniBot.git
    ```
 
 2. Install dependencies using npm.
