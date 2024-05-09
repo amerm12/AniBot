@@ -1,0 +1,28 @@
+{
+  "name": "anibot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discord-player/extractor": "^4.4.6",
+    "@discordjs/voice": "^0.16.1",
+    "axios": "^1.6.7",
+    "discord-player": "^6.6.7",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "ffmpeg-static": "^5.2.0",
+    "fuse.js": "^7.0.0",
+    "fuzzball": "^2.1.2",
+    "libsodium-wrappers": "^0.7.13",
+    "mediaplex": "^0.0.9",
+    "play-dl": "^1.9.7",
+    "youtube-ext": "^1.1.16",
+    "ytdl-core": "^4.11.5"
+  }
+}
