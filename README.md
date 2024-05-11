@@ -18,28 +18,45 @@ AniBot is a Discord bot written in Node.js that provides a range of functionalit
 
 To use AniBot, follow these steps:
 
-1. Clone the repository to your local machine.
+1. Clone the repository:
+   - Clone the AniBot repository to your local machine using Git.
    ```
    git clone https://github.com/amerm12/AniBot.git
    ```
+2. Create a Discord Bot:
+   - Create a new Discord bot application on the [Discord Developer Portal](https://discord.com/developers/applications).
+   - Obtain your bot's token from the Discord Developer Portal. This token is required       for the bot to connect to Discord servers.
 
-2. Install dependencies using npm.
-   ```
-   npm install
-   ```
+3. Add the Bot to Your Discord Server:
+   - Navigate to the Discord Developer Portal and select your bot application.
+   - Generate an OAuth2 URL with the "bot" scope and the necessary permissions.
+   - Use the generated URL to invite your bot to your Discord server.
 
-3. Set up environmental variables:
-   - Create a `.env` file in the root directory.
-   - Add your Discord bot token and other necessary credentials to the `.env` file:
-     ```
+4. Set Up Environmental Variables:
+   - Create a `.env` file in the root directory of the cloned repository.
+   - Add your Discord bot token and any other necessary credentials to the `.env` file       in the following format:
+     ```plaintext
      DISCORD_TOKEN=your_discord_bot_token
      YOUTUBE_KEY=your_youtube_api_key
      ```
+   - Replace `your_discord_bot_token` with the token you obtained for your Discord bot.
+   - Replace `your_youtube_api_key` with YouTube API key You can obtain from the [Google Developers Console](https://console.developers.google.com/).
 
-4. Start the bot.
-   ```
-   node index.js
-   ```
+5. Install Dependencies:
+   - Open a terminal or command prompt in the repository's root directory.
+   - Install the required Node.js dependencies using npm.
+     ```
+     npm install
+     ```
+     
+6. Start the Bot:
+   - Run the bot using Node.js.
+     ```
+     node index.js
+     ```
+7. Interact with the Bot:
+   - Once the bot is added to your Discord server and running locally, you can use the       provided commands within Discord channels to interact with the bot and access its       features.
+
 
 ## Usage
 
